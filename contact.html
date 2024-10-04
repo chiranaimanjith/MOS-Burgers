@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .home {
+            min-height: 100vh;
+            background-color: linear-gradient(rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #292929;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <section class="home" id="home">
+        <nav>
+            <div class="logo">
+                <h1 id="logo-lo">MOS Burgers <span> With us</span></h1>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="burgers.html">Burgers</a></li>
+                <li><a href="submarines.html">Submarines</a></li>
+                <li><a href="fries.html">Fries</a></li>
+                <li><a href="pasta.html">Pasta</a></li>
+                <li><a href="chicken.html">Chicken</a></li>
+                <li><a href="beverages.html">Beverages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="social">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="panel address">
+                <div class="box box-1">
+                    <i class="fa fa-address-card"></i>
+                    <h1>Mos Bugers with us</h1>
+                    <h2>Galle road,</h2>
+                    <h2>Panadura</h2>
+                </div>
+                <div class="box box-2">
+                    <i class="fa fa-mobile"></i>
+                    <h3>+9400000000</h3>
+                </div>
+                <div class="box box-3">
+                    <i class="fa fa-envelope"></i>
+                    <h3>mosburgers@gmail.com</h3>
+                </div>
+                <div class="box box-4">
+                    <i class="fa fa-globe"></i>
+                    <h3>www.mosburgers.com</h3>
+                </div>
+            </div>
+            <div class="panel contact">
+                <h3>Contact</h3>
+                <div class="form-group">
+                    <input type="text" id="txtName" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="numPhone" placeholder="Your Number">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="txtMail" placeholder="Your Mail id">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="txtMsg" cols="39" rows="4" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn-send">Send</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <h4>Copyright <i class="fa fa-copyright"></i> <span class="ncolor">Mos Burgers with us</span> | All rights reserved.</h4>
+            <h5>Made with <i class="fa fa-heart"></i> by <span class="ncolor">Chirana Imanjith.</span></h5>
+        </div>
+    </section>
+    <script>
+        document.getElementById('logo-lo').addEventListener('click', function () {
+            window.location.href = 'index.html';
+        });
+    </script>
 </body>
 </html>

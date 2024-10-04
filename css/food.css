@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
 /* Header Section */
 .veg {
     height: 230vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/burger-background.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/background/burger-background.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -69,7 +69,6 @@ header nav ul li a:hover {
     color: #CDA45E;
     background-color: transparent;
     border: 2px solid #CDA45E;
-
     font-size: 17px;
     border-radius: 3px;
     cursor: pointer;
@@ -99,7 +98,6 @@ header nav ul li a:hover {
     border-radius: 50%;
     font-weight: 600;
     z-index: 10;
-
 }
 
 /* Cart Section */
@@ -107,7 +105,7 @@ header nav ul li a:hover {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 400px;
+    width: 450px;
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
@@ -164,6 +162,7 @@ header nav ul li a:hover {
     border-radius: 50%;
     background-color: #292929;
     padding: 5px;
+    margin-left: 20px;
 }
 
 .detail-box {

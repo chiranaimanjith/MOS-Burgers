@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fries</title>
+    <link rel="stylesheet" href="css/food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    
+    <section class="veg">
+        <header>
+            <h1>Fries</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="burgers.html">Burgers</a></li>
+                    <li><a href="submarines.html">Submarines</a></li>
+                    <li><a href="fries.html">Fries</a></li>
+                    <li><a href="pasta.html">Pasta</a></li>
+                    <li><a href="chicken.html">Chicken</a></li>
+                    <li><a href="beverages.html">Beverages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <button class="btn-cart">Cart
+                        <i class="fa fa-cart-plus" id="cart-icon"></i>
+                    </button>
+                    <div class="cart-count">0</div>
+                </ul>
+            </nav>
+
+            <!--Cart Section-->
+            <div class="cart">
+                <div class="cart-title">Cart items</div>
+                <div class="cart-content">
+
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs.0</div>
+                </div>
+                <button class="btn-buy">Place Order</button>
+                <i class="fa fa-close" id="cart-close"></i>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="food-box">
+                <img src="img/fries/Steak_Fries_Large.jpeg" class="food-img">
+                <h2 class="food-title">Steak Fries (Large)</h2>
+                <h3 class="food-price">Rs.1200.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+
+            <div class="food-box">
+                <img src="img/fries/Steak_Fries_Medium.jpeg" class="food-img">
+                <h2 class="food-title">Steak Fries (Medium)</h2>
+                <h3 class="food-price">Rs.600.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="img/fries/French_Fries_Large.jpeg" class="food-img">
+                <h2 class="food-title">French Fries (Large)</h2>
+                <h3 class="food-price">Rs.800.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="img/fries/French_Fries_Medium.jpeg" class="food-img">
+                <h2 class="food-title">French Fries (Medium)</h2>
+                <h3 class="food-price">Rs.650.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="img/fries/French_Fries_Small.jpeg" class="food-img">
+                <h2 class="food-title">French Fries (Small)</h2>
+                <h3 class="food-price">Rs.450.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="img/fries/Sweet_Potato_Fries_Large.jpeg" class="food-img">
+                <h2 class="food-title">Sweet Potato Fries (Large)</h2>
+                <h3 class="food-price">Rs.600.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+    </section>
+    <script src="javascript/script.js"></script>
 </body>
+
 </html>
